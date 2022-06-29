@@ -52,7 +52,7 @@ Aplikacja pozwala na przewidzenie, czy dany związek będzie wykazywać zdolnoś
 with st.sidebar.header('przekaż plik do analizy'):
     uploaded_file = st.sidebar.file_uploader(label="tutaj udpostępnij swój plik", type=['txt'])
     st.sidebar.markdown("""
-[Przykładowy input](https://raw.githubusercontent.com/dataprofessor/bioactivity-prediction-app/main/example_acetylcholinesterase.txt)
+[Przykładowy input](https://raw.githubusercontent.com/igmure/intro-to-ml/main/example.txt?token=GHSAT0AAAAAABWDNBLHTGJKLHSFAPJ7QO4WYV4BLZQ)
 """)
 
 if st.sidebar.button('Analiza'):
